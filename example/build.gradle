@@ -7,7 +7,7 @@ android {
     defaultConfig {
         applicationId "de.madcyph3r.MaterialDrawer"
         minSdkVersion 10
-        targetSdkVersion 22
+        targetSdkVersion 23
         versionCode 10
         versionName "2.3"
     }
@@ -31,7 +31,7 @@ repositories {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:appcompat-v7:23.1.0'
     compile 'com.amulyakhare:com.amulyakhare.textdrawable:1.0.0'
     compile project(':materialDrawer')
     compile 'com.github.kanytu:android-parallax-recyclerview:v1.2'
